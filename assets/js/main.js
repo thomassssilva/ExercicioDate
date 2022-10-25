@@ -1,3 +1,5 @@
+//MINHA RESOLUÇÃO
+
 function formatZeros (num) {
     return num >=10 ? num : `0${num}`
 }
@@ -34,7 +36,6 @@ const mesTxt = [
     'Outubro',
     'Novembro',
     'Dezembro',
-
 ];
 
 
@@ -44,3 +45,8 @@ const resultado = document.querySelector('#resultado');
 resultado.innerHTML = texto;
 
 console.log(texto);
+
+/*//SOLUÇÃO PROFESSOR 1
+const data = new Date ();
+const resultado = document.querySelector('#resultado');
+resultado.innerHTML = data.toLocaleString ('pt-BR', {dateStyle: 'full', timeStyle:'short'});*/
